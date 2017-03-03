@@ -3,6 +3,10 @@ section#banner{
   
 }
 
+.logo-bienvenidos{
+  width: 400px;
+}
+
 #particles-js{
   width: 100%;
   background-image: url(../images/bg2.jpg);
@@ -54,9 +58,23 @@ header{
 header nav{
   display: table;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 20px;
   height: 40px;
   -webkit-transition: margin-left .5s;
+}
+
+header nav .logo{
+  float: left;
+  margin-top: -25px;
+  margin-right: 20px;
+}
+
+header nav .logo img{
+  margin-top: -5px;
+}
+
+header nav .logo h2{
+  color:  #fff;
 }
 
 header nav ul{
@@ -94,6 +112,7 @@ header nav ul .dropdown .dropbtn{
 
 header nav ul .dropdown{
   float: left;
+  margin-left: -40px;
 }
 header nav ul .dropdown .dropdown-content{
   display: none;
@@ -282,6 +301,14 @@ header nav ul .dropdown .dropbtn:hover{
 
 .main-container .row .post article{
   padding: 20px;
+}
+
+.main-container .row .post article .post-noticia img{
+  float: left;
+}
+
+.main-container .row .post article .post-noticia p{
+  color: #000;
 }
 
 .main-container .row .col{

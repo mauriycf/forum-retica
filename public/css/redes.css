@@ -5,7 +5,19 @@
 	left: 0;
 }
 
-.flecha{
+.ir-arriba{
+	display: none;
+	padding: 20px;
+	background: #024959;
+	color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	position: fixed;
+	bottom:20px;
+	right: 20px;
+}
+
+/*.flecha{
 	position: fixed;
 	top: 650px;
 	right: 50px;
@@ -30,7 +42,7 @@
 	-moz-transition: 0.5s;
 	-o-transition: 0.5s;
 	-webkit-transition: 0.5s;
-}
+}*/
 
 #facebook a{
 	background: #3b5998;
@@ -44,7 +56,6 @@
 }
 
 #facebook a:hover{
-	background: #000;
 	padding: 10px 60px;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -63,7 +74,6 @@
 	-webkit-transition: 0.5s;
 }
 #twitter a:hover{
-	background: #000;
 	padding: 10px 60px;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -82,7 +92,6 @@
 	-webkit-transition: 0.5s;
 }
 #instagram a:hover{
-	background: #000;
 	padding: 10px 60px;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
@@ -101,11 +110,9 @@
 	-webkit-transition: 0.5s;
 }
 #correo a:hover{
-	background: #000;
 	padding: 10px 60px;
 	transition: 0.5s;
 	-moz-transition: 0.5s;
 	-o-transition: 0.5s;
 	-webkit-transition: 0.5s;
 }
-

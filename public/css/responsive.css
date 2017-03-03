@@ -1,0 +1,40 @@
+@media only screen and (max-width: 480px){
+	
+	.red{
+		display: none;
+	}
+
+	.columnasx3{
+		width: 100%;
+	}
+	.logo-bienvenidos{
+		width: 70%;
+	}
+	.letras-slider p{
+		margin-top: -40px;
+	}
+	.testimonios{
+		display: none;
+	}
+	.form-2{
+		display: none;
+	}
+
+	.formulario textarea{
+		width: 100%;
+	}
+
+	.cabecera{
+		display: none;
+	}
+	.navbar{
+		display: block;
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.red{
+		display: none;
+	}
+}
